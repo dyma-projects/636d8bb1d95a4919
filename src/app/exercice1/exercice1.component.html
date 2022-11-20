@@ -1,0 +1,10 @@
+<p>Ceci est une interpolation de variable : {{ title }}</p>
+<hr />
+<h5>Ceci est un exemple de liaison sur un attribut avec []</h5>
+<img [src]='imageLink'>
+<hr />
+<h5>Ceci est un exemple de liaison sur un évènement avec ()</h5>
+<input [value]="name" (input)="name=$event.target.value">
+<br />
+{{name}}
+<hr />
